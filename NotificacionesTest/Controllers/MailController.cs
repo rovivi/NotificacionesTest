@@ -53,8 +53,9 @@ namespace NotificacionesTest.Controllers
 
         public IActionResult Post(Mail mail)
         {
-            if (mail.Title == null || mail.CC == null || mail.CCC == null || mail.Body == null)
-                return BadRequest();
+            //if (mail.Title == null || mail.CC == null || mail.CCC == null || mail.Body == null||mail.To ==null)
+            //    return BadRequest();
+
 
             try
             {
